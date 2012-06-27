@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Examples</title>
+<style type="text/css">
+.entry {
+  border: 1px solid #DCDCDC;
+  display: inline;
+  float: left;
+  margin: 0 0 19px 19px;
+  padding: 2px;
+  width: 228px;
+}
+.first {
+  border: 2px solid #AF3636;
+  margin: 0 0 17px 17px;
+}
+.fix {
+  background-color: #DD6;
+}
+
+.basket {
+  background-color: #EFEFEF;
+  padding-top: 15px;
+  width: 800px;
+}
+
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../randomtopic.js"></script>
+<script type="text/javascript">
+$(function(){
+  $("div.random").randomTopic({
+    maxTopics: 6,
+    cssClassFirst: 'first',
+    intervalCount: 3
+  });
+});
+</script>
+</head>
+<body>
+<h1>RandomTopic.js</h1>
+<h2>RandomTopic</h2>
+<div class="basket random">
+  <div class="entry" >Apple</div>
+  <div class="entry" >Banana</div>
+  <div class="entry" >Cherry</div>
+  <div class="entry fix" >Durian</div>
+  <div class="entry" >Eggfruit</div>
+  <div class="entry" >Fig</div>
+  <div class="entry fix" >Grapefruit</div>
+  <div class="entry" >Honeydew</div>
+  <div class="entry fix" >Ita Palm</div>
+  <div class="entry" >Jujube</div>
+  <div class="entry" >Kiwi</div>
+  <div class="entry" >Lime</div>
+  <div class="entry" >Mango</div>
+  <div class="entry" >Nectarine</div>
+  <div class="entry" >Orange</div>
+  <div class="entry" >Pineapple</div>
+  <div class="entry" >Quince</div>
+  <div class="entry" >Raspberry</div>
+  <div class="entry" >Strawberry</div>
+  <div class="entry" >Tangerine</div>
+  <div class="entry" >Ugli</div>
+  <div class="entry" >Voavanga</div>
+  <div class="entry" >Watermelon</div>
+  <div class="entry" >Xigua</div>
+  <div class="entry" >Yali pears</div>
+  <div class="entry" >Zucchini</div>
+</div>
+
+<br />
+<div style="clear:both;"></div>
+
+<h2>Original</h2>
+<div class="basket before">
+  <div class="entry" >Apple</div>
+  <div class="entry" >Banana</div>
+  <div class="entry" >Cherry</div>
+  <div class="entry fix" >Durian</div>
+  <div class="entry" >Eggfruit</div>
+  <div class="entry" >Fig</div>
+  <div class="entry fix" >Grapefruit</div>
+  <div class="entry" >Honeydew</div>
+  <div class="entry fix" >Ita Palm</div>
+  <div class="entry" >Jujube</div>
+  <div class="entry" >Kiwi</div>
+  <div class="entry" >Lime</div>
+  <div class="entry" >Mango</div>
+  <div class="entry" >Nectarine</div>
+  <div class="entry" >Orange</div>
+  <div class="entry" >Pineapple</div>
+  <div class="entry" >Quince</div>
+  <div class="entry" >Raspberry</div>
+  <div class="entry" >Strawberry</div>
+  <div class="entry" >Tangerine</div>
+  <div class="entry" >Ugli</div>
+  <div class="entry" >Voavanga</div>
+  <div class="entry" >Watermelon</div>
+  <div class="entry" >Xigua</div>
+  <div class="entry" >Yali pears</div>
+  <div class="entry" >Zucchini</div>
+</div>
+</body>
+</html>
